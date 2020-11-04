@@ -1,2 +1,1 @@
-# taltech_fp
-Functional Programming course, A.A. 2020/2021 @ Tallinn University of Technology
+This repository contains codes for "Functional Programming" course, 2020 @ TalTech.
