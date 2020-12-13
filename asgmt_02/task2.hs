@@ -11,7 +11,7 @@ elecCharge :: Float -> Float
 elecCharge units
          | units <= 50 = 0.50*units
          | units > 50 && units <= 150 = 0.50*50 + 0.75*(units-50)
-         | units > 151 && units <= 250 = 0.50*50 + 0.75*100 + 1.2*(units-150)
+         | units > 150 && units <= 250 = 0.50*50 + 0.75*100 + 1.2*(units-150)
          | units > 250 = 0.50*50 + 0.75*100 + 1.2*100 + 1.5*(units-250)
          | otherwise = 0
 
